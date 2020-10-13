@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+ 
+ 
+   <title>Σύστημα διαχείρισης της στάθμευσης στους δρόμους μέσω αισθητήρων</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <link rel="stylesheet" type="text/css" href="xampp\htdocs\web_city\CSS\style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel='shortcut icon' type='image/x-icon' href='xampp\htdocs\web_city\IMG\img.png' >
+   <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+       <div id="header">
+          <h1 align=center>Σύστημα διαχείρισης της στάθμευσης στους δρόμους  μέσω αισθητήρων</h1>
+       </div>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<h1>Administrator Simulation Panel</h1>
+<br>
+<br>
+<br>
+
+<div class="row">
+  <div class="column">
+  <h3>Upload kml</h3>
+<form action="xampp\htdocs\web_city\PHP\dbupdate.php">
+  Select a file: <input type="file" name="myFile"><br><br>
+  <input type="submit">
+</form>
+</div>
+  <div class="column">
+  <h1>Delete content</h1>
+<form
+ <form action="xampp\htdocs\web_city\PHP\deletetb.php">
+ <br>
+ <br>
+  <input type="submit">
+</form></div>
+</div>
+
+
+
+
+	<footer id="main-footer">
+		<p>Copyright &copy; 2019 </p>
+	    </footer>
+</body>
+</html>

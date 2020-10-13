@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="xampp\htdocs\web_city\CSS\style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='shortcut icon' type='image/x-icon' href='xampp\htdocs\web_city\IMG\img.png' >
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <div class="login-container">
+    <form action="xampp\htdocs\web_city\PHP\login.php" method="POST">
+      <input type="text" placeholder="user" name="user" method="POST">
+      <input type="password" placeholder="password" name="pass" method="POST">
+      <button type="submit">Login</button>  
+	  <button onclick="location.href='xampp\htdocs\web_city\PHP\simulation.php'" type="button">Continue as guest</button>
+    </form>
+  </div>
+</div>
+<div id="container">
+       <div id="header">
+          <h1 align=center>Σύστημα διαχείρισης της στάθμευσης στους δρόμους  μέσω αισθητήρων</h1>
+       </div>
+
+<br>
+<br>
+<br>
+<div class="box1">
+ <h1>ΚΑΛΩΣ ΟΡΙΣΑΤΕ</h1>
+</div>
+<br>
+<img src="xampp\htdocs\web_city\IMG\anim.gif" alt="" width="400" height="300" >
+
+<footer id="main-footer">
+		<p>Copyright &copy; 2019 </p>
+	    </footer>
+
+</body>
+</html>
