@@ -23,7 +23,7 @@ The project offers a login form where the admin separates himself from a simple 
    
       * Observe the resulted coloured map. 
       
-      * Choose an area and a walkin radius where he wishes to park. 
+      * Choose an area and a walking radius where he wishes to park. 
 
 ###### Known Issues(ToDo)
 
